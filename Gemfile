@@ -8,13 +8,11 @@ gem 'rails', '3.2.6'
 gem 'sqlite3'
 
 group :test, :development do
-  # Pretty printed test output
-	gem 'turn', :require => false
 	gem 'rspec'
 	gem 'rspec-rails', '~> 2.10'
 end
 
-group :test do
+group :test do
 	gem 'cucumber-rails'
 	gem 'capybara'
 	gem 'database_cleaner'
