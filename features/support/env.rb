@@ -57,3 +57,5 @@ end
 # See https://github.com/cucumber/cucumber-rails/blob/master/features/choose_javascript_database_strategy.feature
 Cucumber::Rails::Database.javascript_strategy = :truncation
 
+#$LOAD_PATH << File.expand_path('../../lib', __FILE__)
+require 'story'
